@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Movie Genre regression
+# Bitcon time series forecasting
 
 This dataset based on<sup>1</sup> contains time series forecasting of BitCoin values.
 
