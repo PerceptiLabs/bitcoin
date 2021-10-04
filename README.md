@@ -4,27 +4,23 @@
   </a>
 </p>
 
-# Bitcon time series forecasting
+# Bitcoin time series forecasting
 
-This dataset based on<sup>1</sup> contains time series forecasting of BitCoin values.
+This dataset<sup>1</sup> contains 10 days worth of data to experiment with building a simple a time-series forecast of Bitcoin values.
 
-The data can be used to build and train an ML model that can make a regresion using time series forecasting techniques. 
-
-This use case show how to employ basically LSTM component to time series forecasting. It's not improved and only use 10 previous days to forecasting, that is not enough but show how to use Perceptilabs software in a use case of time series forecast.
+The data can be used to build and train an [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory)model that can do regression using time-series forecasting techniques.
 
 # Structure
 
 This repo contains the following structure:
 
-- **BT-USD-TimeSeries.csv**: CSV file with time series data of BitCoin.
+- **BT-USD-TimeSeries.csv**: CSV file with time-series data of Bitcoin.
 
-
-The following shows a partial example of the data stored in **BT-USD-TimeSeries.csv* that is used to load the data into PerceptiLabs. Where each column is a day, and last column is the target. All values are normalized between 0 and 1 that is a requirement for LSTM layers.
+The following shows a partial example of the data stored in **BT-USD-TimeSeries.csv* that is used to load the data into PerceptiLabs. Each column contains data for a day, and last column is the target. All values are normalized between 0 and 1 which is a requirement for LSTM layers.
 
 <p align="center">
   <img src="./sample.png">
 </p>
-
 
 # Community
 
